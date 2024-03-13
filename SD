@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przekierowanie</title>
+</head>
+<body>
+    <h1>Przekierowanie</h1>
+    <p>Za chwilę zostaniesz przekierowany na inną stronę.</p>
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://leadstar.pl/c?pid=90585&tid=2314&ha=98941569&r=2441";
+        }, 5000); // przekierowanie nastąpi po 5 sekundach (5000 milisekund)
+    </script>
+</body>
+</html>
